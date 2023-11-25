@@ -41,7 +41,7 @@ public class Program
       {
        value = matchCollection[9].Groups[1].Value;
    }
-    if (responseBody.Contains("value='Connect'></td>"))
+    if (responseBody1.Contains("value='Connect'></td>"))
         {
      Console.WriteLine("Reconect sau khi phát hiện đã bị ngắt kết nối");
      goto abc;
