@@ -1,4 +1,4 @@
-﻿using System;
+ ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,11 +14,11 @@ public class Program
     public static void Main(string[] args)
     {
               Console.OutputEncoding=Encoding.UTF8;
-          new Program().changeip();
+        changeip();
   Console.ReadLine();
     }
   private static HttpClient httpClient = new HttpClient();
-  public async void changeip()
+  public static async void changeip()
   {
    try
    {
